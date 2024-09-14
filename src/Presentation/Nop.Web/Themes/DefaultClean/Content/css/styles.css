@@ -48,7 +48,7 @@ input[type="email"],
 input[type="tel"],
 input[type="password"],
 textarea {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 button,
@@ -106,6 +106,7 @@ textarea, select {
   border: 1px solid #ddd;
   padding: 8px;
   vertical-align: middle;
+  border-radius:10px;
 }
 
 input, textarea, select, button {
@@ -146,6 +147,7 @@ input[type="radio"] + * {
 input[type="button"], input[type="submit"],
 button, .button-1, .button-2 {
   cursor: pointer;
+  border-radius: 24px;
 }
 
 label, label + * {
@@ -1021,7 +1023,7 @@ label, label + * {
   float: left;
   width: 200px;
   height: 36px;
-  margin: 0 -1px 0 0;
+  margin: 0 5px 5px 0;
 }
 
 .search-box .search-box-button {
@@ -4637,6 +4639,7 @@ label, label + * {
   font-size: 15px;
   text-align: center;
   color: #fff;
+  border-radius:24px;
 }
 
 .shopping-cart-page .common-buttons .estimate-shipping-button:hover,
@@ -6797,9 +6800,9 @@ label, label + * {
     background-color: #fff;
   }
 
-  .block-category-navigation {
+ /* .block-category-navigation {
     display: none;
-  }
+  }*/
 
   .block-account-navigation {
     float: none;

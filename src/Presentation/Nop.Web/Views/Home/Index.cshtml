@@ -4,7 +4,7 @@
 @inject IStoreContext storeContext
 
 @{
-    Layout = "_ColumnsOne";
+    Layout = "_ColumnsTwo";
 
     var homepageTitle = await localizationService.GetLocalizedAsync(await storeContext.GetCurrentStoreAsync(), s => s.HomepageTitle);
 
